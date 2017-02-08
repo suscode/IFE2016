@@ -2,7 +2,7 @@
  * @Author: Marte
  * @Date:   2017-01-17 16:51:02
  * @Last Modified by:   Marte
- * @Last Modified time: 2017-02-07 17:59:06
+ * @Last Modified time: 2017-02-08 17:12:39
  */
 
 'use strict';
@@ -79,7 +79,27 @@ function createTree(data) {
             inter_:
                 for (var j = 0; j < incount; j++) {
                     if (orderData[i].children[j].nodeName == "DIV") {
+                        var hSvg = document.createElement("svg");
+                        var xmlns = document.createAttribute("xmlns");
+
+                        /*hSvg.className = "node-icon";*/
+
+                        xmlns.value = "http://www.w3.org/2000/svg";
+                        hSvg.setAttributeNode(xmlns);
+                        var hVersion = document.createAttribute("version");
+                        hVersion.value = "1.1";
+                        hSvg.setAttributeNode(hVersion);
+
+                        var hPolygon = document.createElement("polygon");
+                        var hPoints = document.createAttribute("points");
+                        hPoints.value = "0,0 0,10 10,5";
+                        hPolygon.setAttributeNode(hPoints);
+                        hPolygon.style.fill = "purple";
+                        hSvg.appendChild(hPolygon);
+
+                        orderData[i].children[0].appendChild(hSvg);
                         orderData[i].children[0].className = "havechild";
+
                         divcount++;
                         break inter_;
                     }
