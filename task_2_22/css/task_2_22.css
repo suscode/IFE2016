@@ -1,0 +1,55 @@
+/*
+* @Author: Marte
+* @Date:   2017-01-17 16:51:15
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-01-20 11:47:08
+*/
+
+div {
+    display: flex;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background: #aaa;
+    /* z-index: 4; */
+}
+/* div > div{
+    background-color: rgb(185, 255, 255);
+} */
+/* div > div > div{background-color: #eee;} */
+
+div:hover{
+    /* background: #aaa; */
+}
+
+.div-wrap {
+    width: 640px;
+    margin: 40px;
+    justify-content: space-around;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    background: #a7cef6;
+    font: 16px "SimHei";
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+button:hover {
+    background: #aba7f6;
+    /* opacity: 0.7; */
+    /* border-left: 1px solid #aba7f6; */
+    /* border-top: 1px solid #aba7f6; */
+    box-shadow: 5px 5px 5px #000;
+}

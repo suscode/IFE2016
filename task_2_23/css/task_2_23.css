@@ -1,0 +1,74 @@
+/*
+* @Author: Marte
+* @Date:   2017-01-17 16:51:15
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-01-22 14:03:02
+*/
+
+.div-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.div-wrap div {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 5px 8px;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.bg-withe {
+    background: #fff;
+}
+
+.bg-gary {
+    background: #aaa;
+}
+
+div:hover {}
+
+#btnBox{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px 400px;
+    border: 1px solid #000;
+    background: #fff;
+    justify-content: space-around;
+}
+
+span {
+    float: left;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    background: #a7cef6;
+    font: 16px "SimHei";
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+button:hover {
+    background: #aba7f6;
+    /* opacity: 0.7; */
+    /* border-left: 1px solid #aba7f6; */
+    /* border-top: 1px solid #aba7f6; */
+    box-shadow: 5px 5px 5px #000;
+}

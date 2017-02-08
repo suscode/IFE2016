@@ -1,0 +1,119 @@
+/*
+* @Author: Marte
+* @Date:   2017-01-17 16:51:15
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-02-07 17:35:16
+*/
+
+.div-wrap {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    background: #fff;
+    /* cursor: pointer; */
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+
+.div-wrap div {
+    /* display: flex;
+    flex-flow: wrap; */
+    box-sizing: border-box;
+    margin-left: 30px;
+    padding: 2px 0;
+    background: #fff;
+    /* border:1px solid #ccc; */
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+
+p{
+    width: 100%;
+    margin: 0;
+    cursor: pointer;
+}
+.bg-withe {
+    background: #fff;
+}
+
+.bg-gary {
+    background: #aaa;
+}
+
+.havechild{
+    color: #C43CA9;
+}
+
+.nochild{
+    color: #C4A93C;
+}
+
+.funBox {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    background: #fff;
+    justify-content: space-around;
+}
+
+.funBox button {
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    background: #a7cef6;
+    font: 16px "SimHei";
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.funBox button:hover {
+    background: #aba7f6;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.funBox2 {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    background: #fff;
+    justify-content: space-around;
+}
+
+.funBox2 button {
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background: #a7cef6;
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.funBox2 button:hover {
+    background: #aba7f6;
+    border: 1px solid #aaa;
+}

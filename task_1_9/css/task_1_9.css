@@ -1,0 +1,806 @@
+/*
+* @Author: Marte
+* @Date:   2016-12-07 20:03:10
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-19 11:48:34
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+ol, ul ,li{list-style: none;}
+
+
+/* 头部CSS */
+.t9-head{
+    width: 100%;
+    min-width: 1280px;
+    height: 56px;
+    background: #2189bf url("../images/logo.png") no-repeat 4% 10px;
+}
+.t9-head-search{
+    float: left;
+    margin-top: 14px;
+    margin-left: 63.5%;
+    width: 312px;
+    height: 28px;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.t9-head-search-a{
+    display: inline-block;
+    width: 44px;
+    height: 28px;
+    text-align: center;
+    line-height: 32px;
+}
+.t9-head-search-input{
+    float: right;
+    width: 268px;
+    height: 22px;
+    margin-top: 3px;
+    border: 0;
+    outline: 0;
+}
+.t9-head-login{
+    float: right;
+    margin:20px 7.3% 0 0;
+}
+.t9-head-login-a-span{
+    float: right;
+    margin-top: 2px;
+    font:12px "SimHei";
+    color:#ffffff;
+}
+
+.wrapper{
+    width: 1280px;
+    margin: 0 auto;
+    background: #eeeded;
+}
+.wrapper:before,.wrapper:after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+.aside{
+    float: left;
+    width: 260px;
+    height: 1200px;
+    background: #2a2e3d;
+}
+.aside-head{
+    margin-top: 18px;
+}
+.aside-head-div{
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    margin-left: 46px;
+    border: 2px solid #b2b3b8;
+    border-radius: 30px;
+}
+.aside-head-div-img{
+    margin: 5px 0 0 5px;
+}
+.aside-head-span{
+    float: right;
+    margin: 22px 92px 0 0;
+    font:16px "SimHei";
+    color: #f6f5f5;
+}
+
+.aside-data{
+    height:26px;
+    margin-top: 26px;
+}
+.aside-data-div-span{
+    display:block;
+    color:#576477;
+    font:16px "SimSun";
+    font-weight: bold;
+}
+.aside-data-div-span2{
+    display:block;
+    color:#576477;
+    font:12px "SimSun";
+    font-weight: bold;
+}
+.aside-data-div1{
+    float: left;
+    width: 62px;
+    margin-left: 60px;
+    box-sizing: border-box;
+    border-right: 2px solid #313545;
+}
+.aside-data-div2{
+    float: left;
+    width:62px;
+    text-align: right;
+}
+
+
+.aside-nav{
+    overflow: auto;
+    margin-top:24px;
+}
+
+.aside-nav-font{
+    font:12px "SimHei";
+    text-decoration: none;
+}
+
+.aside-nav1-tb{
+    padding: 16px 0;
+}
+.aside-nav2-tb{
+    padding-top: 14px;
+}
+.aside-nav3-tb{
+    padding-top: 14px;
+}
+.aside-nav-check{
+    background: #383d4e;
+}
+
+.aside-nav-open{
+    color:#e4e4e7;
+}
+.aside-nav-close{
+    color:#5b687c;
+}
+.aside-nav1-position{
+    display: block;
+    margin-left: 46px;
+}
+.aside-nav1-li1{
+    list-style-image: url("../images/navicon1.png");
+    list-style-position: inside;
+}
+/* .aside-nav1-li2{
+    list-style-image: url("../images/navicon6.png");
+    list-style-position: inside;
+}
+.aside-nav1-li3{
+    list-style-image: url("../images/navicon7.png");
+    list-style-position: inside;
+}
+.aside-nav1-li4{
+    list-style-image: url("../images/navicon6.png");
+    list-style-position: inside;
+}
+.aside-nav1-li5{
+    list-style-image: url("../images/navicon6.png");
+    list-style-position: inside;
+}
+.aside-nav1-li6{
+    list-style-image: url("../images/navicon8.png");
+    list-style-position: inside;
+} */
+
+.aside-nav2-position{
+    display: block;
+    margin-left:64px;
+}
+/* .aside-nav2-open{
+    list-style-image: url("../images/navicon3.png");
+    list-style-position: inside;
+}
+.aside-nav2-close{
+    list-style-image: url("../images/navicon2.png");
+    list-style-position: inside;
+}
+ */
+.aside-nav3-position{
+    display: block;
+    margin-left:96px;
+}
+/* .aside-nav3-open{
+    list-style-image: url("../images/navicon4.png");
+    list-style-position: inside;
+}
+.aside-nav3-close{
+    list-style-image: url("../images/navicon5.png");
+    list-style-position: inside;
+} */
+
+.first-font{
+    font: 12px "SimHei";
+    color: #aaaaaa;
+}
+
+/* 正文部分 */
+.article
+{
+    float: right;
+    width: 1020px;
+}
+
+/* 头部分 */
+.article-head{
+    padding-left: 30px;
+    height: 30px;
+    background: #fff;
+    line-height: 30px;
+}
+.article-head .page-address{
+    color: #75a0c6;
+}
+
+/* 搜素部分 */
+.article-search{
+    width: 890px;
+    height: 86px;
+    margin: 20px 0 0 60px;
+    padding-top: 15px;
+    background: #fff;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+}
+.article-search *{
+    box-sizing: border-box;
+}
+.article-search div{
+    float: left;
+}
+.article-search .search-this{
+    width: 150px;
+    text-align: right;
+}
+.article-search .search-this select{
+    width: 70px;
+    height: 26px;
+    margin-left:6px;
+}
+.article-search .buy-sell{
+    width: 220px;
+    margin-left: 32px;
+    background: url("../images/articleicon2.png") no-repeat 158px 10px;
+}
+.article-search .buy-sell select{
+    width: 120px;
+    height: 26px;
+    margin-left:6px;
+}
+.article-search .buy-sell select:nth-of-type(2){
+    margin-top: 6px;
+}
+.article-search .buy-sell a{
+    float: right;
+    margin: -4px 36px 0 0;
+    color: #fff;
+    text-decoration: none;
+}
+.article-search .search-date{
+    width: 290px;
+    margin-left: 32px;
+}
+.article-search .search-date input{
+    height: 26px;
+    width: 120px;
+    margin-left: 6px;
+    box-sizing: border-box;
+}
+.article-search .search-date select{
+    height: 26px;
+    margin-left: 6px;
+}
+.article-search .search-date span:nth-of-type(2),span:nth-of-type(4){
+    margin-left: 6px;
+}
+.article-search .search-date select:nth-of-type(1),select:nth-of-type(2){
+    width: 71px;
+}
+.article-search .search-date select:nth-of-type(3){
+    width: 121px;
+}
+.article-search .search-date select:nth-of-type(2){
+    margin-top:6px;
+}
+.article-search input[type="submit"]{
+    width: 51px;
+    height: 26px;
+    margin: 16px 0 0 30px;
+    background: #388ac1;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* 历史记录部分 */
+.article-historg{
+    width: 890px;
+    height: 64px;
+    margin: 10px 0 0 60px;
+}
+.article-historg li{
+    float: left;
+    height: 64px;
+    border-top: 1px solid #cacdd0;
+    border-left: 1px solid #cacdd0;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.article-historg .historg-left{
+    width: 30px;
+    line-height: 64px;
+}
+.article-historg .historg-left a{
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #acacac;
+}
+.article-historg .historg-time{
+    width: 110px;
+    height: 50px;
+    margin-left: 5px;
+    padding-top: 14px;
+}
+.article-historg .checked-li{
+    border-top: 4px solid #669fd3;
+    padding-top: 10px;
+}
+.article-historg .historg-time span:nth-of-type(1){
+    display: block;
+    font: 13px "SimHei";
+}
+.article-historg .historg-time span:nth-of-type(2){
+    font-size: 18px;
+    font-weight: bold;
+    color: #ababab;
+}
+.article-historg .historg-time span:nth-of-type(3){
+    font: 24px "SimHei";
+    color: #ec6500;
+}
+.article-historg .historg-right{
+    width: 30px;
+    height: 64px;
+    margin-left: 5px;
+    line-height: 64px;
+}
+.article-historg .historg-right a{
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #acacac;
+}
+.article-historg .historg-submit{
+    width: 120px;
+    margin-left: 5px;
+    background: url("../images/articleicon1.png") #fff no-repeat 20px 16px;
+}
+.article-historg .historg-submit span{
+    display:block;
+    margin: 26px 0 0 56px;
+    font: 13px "SimHei";
+}
+
+
+/* 统计部分 */
+.article-count{
+    width: 890px;
+    height: 88px;
+    margin: 22px 0 0 60px;
+}
+.article-count h4{
+    display: block;
+    width: 100%;
+    height: 18px;
+    font: 14px "SimHei";
+    font-weight: none;
+}
+.article-count div{
+    width: 201px;
+    height: 71px;
+    background: #fff;
+}
+.article-count .count-green{
+    float: left;
+    border: 1px solid #d3d4d7;
+    border-left: 4px solid #43b29e;
+}
+.article-count .count-green>div{
+    background: #43b29e;
+}
+.article-count .count-blue{
+    float: left;
+    margin-left: 30px;
+    border: 1px solid #d3d4d7;
+    border-left: 4px solid #388ac1;
+}
+.article-count .count-blue>div{
+    background: #388ac1;
+}
+.article-count .count-red{
+    float: left;
+    margin-left: 30px;
+    border: 1px solid #d3d4d7;
+    border-left: 4px solid #cf4a36;
+}
+.article-count .count-red>div{
+    background: #cf4a36;
+}
+.article-count .count-yellow{
+    float: right;
+    border: 1px solid #d3d4d7;
+    border-left: 4px solid #e2cd46;
+}
+.article-count .count-yellow>div{
+    background: #e2cd46;
+}
+.article-count span{
+    display: block;
+    margin:18px 0 0 10px;
+    font: 12px "SimHei";
+}
+.article-count span:nth-of-type(2){
+    font-size: 10px;
+    color: #aaaaaa;
+    margin-top: 15px;
+}
+.article-count div>div{
+    float: right;
+    width: 61px;
+    height: 47px;
+    margin: -50px 17px 0 0;
+}
+
+/* 项目左边部分 */
+.project-left{
+    float:left;
+    width: 530px;
+    height: 355px;
+    margin: 20px 0 0 60px;
+    background: #fff;
+    border: 1px solid #ced1d4;
+    border-radius: 8px;
+}
+.project-left .left-head{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #e6e8eb;
+    background: #ededec;
+}
+.project-left .left-head h3{
+    float: left;
+    margin: 14px 0 0 20px;
+    font: 12px "SimHei";
+    color: #aaa;
+}
+.project-left .left-nav{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid red; */
+}
+.project-left .left-nav ul{
+    position: absolute;
+    margin: 12px 0 0 20px;
+}
+.project-left .left-nav ul li{
+    float:left;
+    width: 83px;
+    height: 22px;
+    background: #ededf0;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    margin-left:8px;
+}
+.project-left .left-nav ul li:nth-of-type(1){
+    border: 1px solid #cacbcb;
+    border-bottom: 0;
+    background:#fff;
+    margin-left: 0;
+}
+.project-left .left-nav ul li a{
+    text-decoration: none;
+    font: 12px "SimHei";
+    color: #535353;
+}
+.project-left .left-table{
+    float:left;
+    width: 490px;
+    height: 251px;
+    margin: -6px 0 0 20px;
+    border: 1px solid #cacbcb;
+    border-radius: 0 5px 5px 5px;
+}
+.project-left .left-table table{
+    width: 402px;
+    height: 188px;
+    margin: 30px auto 0 auto;
+    border: 1px solid #cacbcb;
+    border-radius: 5px;
+    font: 12px "宋体";
+    text-align: center;
+    color: #7d7d7e;
+    border-collapse: collapse;
+}
+.project-left .left-table table td{
+    border: 1px solid #cacbcb;
+}
+
+/* 项目右边部分 */
+.project-right{
+    float: left;
+    width: 350px;
+    height: 355px;
+    margin: 20px 0 0 10px;
+    background: #fff;
+    border: 1px solid #ced1d4;
+    border-radius: 8px;
+}
+.project-right .right-head{
+    width: 100%;
+    height: 40px;
+    background: #ededec;
+}
+.project-right .right-head h3{
+    float: left;
+    margin: 14px 0 0 20px;
+    font: 12px "SimHei";
+    color: #aaa;
+}
+.project-right form{
+    width: 100%;
+    height: 315px;
+}
+.project-right .font-1{
+    font: 12px "SimHei";
+    color: #c3c2c2;
+}
+.project-right .font-2{
+    font: 12px "SimHei";
+    color: #535353;
+}
+.project-right form span{
+    display:block;
+}
+.project-right form .form-one{
+    width: 281px;
+    height: 34px;
+    margin: 10px 0 0 34px;
+    border-bottom: 1px solid #c3c2c2;
+}
+.project-right form .form-two{
+    display:inline-block;
+    width: 96px;
+    height: 45px;
+    margin-left: 34px;
+    border-right:1px solid #c3c2c2;
+    border-bottom: 1px solid #c3c2c2;
+}
+.project-right form .form-three{
+    display:inline-block;
+    width: 218px;
+    height: 45px;
+    margin-left: -8px;
+    border-bottom: 1px solid #c3c2c2;
+}
+.project-right form .form-four{
+    width: 281px;
+    height: 147px;
+    margin-left:34px;
+    border-bottom: 1px solid #c3c2c2;
+}
+.project-right form .form-five{
+    width: 281px;
+    height: 147px;
+    margin-left:34px;
+}
+.project-right form .form-five input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    background: #d5d5d5;
+    margin-top: 10px;
+}
+.project-right form .form-five span{
+    display: inline-block;
+    position: relative;
+    margin-top: -5px;
+}
+.project-right form .form-five input[type="submit"]{
+    width: 52px;
+    height: 26px;
+    margin-left: 124px;
+    background: #388ac1;
+    border: 0;
+    border-radius: 2px;
+    font:12px "黑体";
+    color: #fff;
+}
+
+/* 日历部分 */
+.article-calendar{
+    float:left;
+    width: 350px;
+    height: 355px;
+    margin: 10px 0 0 60px;
+    background: #fff;
+    border: 1px solid #ced1d4;
+    border-radius: 8px;
+}
+.article-calendar .calendar-head{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #d0d2d6;
+    background: #ededec;
+}
+.article-calendar .calendar-head h3{
+    float: left;
+    margin: 14px 0 0 20px;
+    font: 12px "SimHei";
+    color: #aaa;
+}
+.article-calendar .calendar-choice{
+    width: 310px;
+    height: 30px;
+    padding-top:10px;
+    margin: 0 auto;
+    border-bottom: 2px solid #a9cfec;
+}
+.article-calendar .calendar-choice select:nth-of-type(1){
+    width: 64px;
+    height: 23px;
+}
+.article-calendar .calendar-choice select:nth-of-type(2){
+    width: 86px;
+    height: 23px;
+}
+.article-calendar .calendar-choice select:nth-of-type(3){
+    width: 76px;
+    height: 23px;
+}
+.article-calendar .calendar-choice a{
+    float: right;
+    width: 60px;
+    height: 23px;
+    font: 12px "SimHei";
+    text-decoration: none;
+    color: #636363;
+    box-sizing: border-box;
+    border: 1px solid #cacbcb;
+    text-align: center;
+    line-height: 23px;
+}
+.article-calendar .calendar-week{
+    width: 310px;
+    height: 22px;
+    margin: 0 auto;
+    padding-top: 9px;
+    border-bottom: 1px solid #d9d5d5;
+    text-align: center;
+}
+.article-calendar .calendar-week span{
+    float: left;
+    width: 14%;
+    font: 12px "黑体";
+}
+.article-calendar .calendar-week span:nth-last-of-type(1){
+    float: right;
+}
+.article-calendar .calendar-date{
+    width: 311px;
+    height: 218px;
+    margin: 0 auto;
+    text-align: center;
+}
+.article-calendar .calendar-date li{
+    float: left;
+    width: 41px;
+    height: 43px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    margin: 2px 2px 0 2px;
+    cursor: pointer;
+}
+.article-calendar .calendar-date .monday{
+    margin-left: 0;
+}
+.article-calendar .calendar-date .sunday{
+    margin-right: 0;
+}
+.article-calendar .calendar-date .holiday{
+    color: #cd3539;
+}
+.article-calendar .calendar-date li span{
+    display: block;
+    font:11.36px "SimHei";
+}
+.article-calendar .calendar-date .border{
+    border: 1px solid #f7d463;
+}
+
+/* 榜单部分 */
+.article-list{
+    float:left;
+    width: 530px;
+    height: 355px;
+    margin: 10px 0 0 10px;
+    background: #fff;
+    border: 1px solid #ced1d4;
+    border-radius: 8px;
+}
+
+.article-list .list-head{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #ced1d4;
+    background: #ededec;
+}
+.article-list .list-head h3{
+    float: left;
+    margin: 14px 0 0 20px;
+    font: 12px "SimHei";
+    color: #aaa;
+}
+.article-list .list-info table{
+    width: 450px;
+    height: 274px;
+    margin: 18px auto 0 auto;
+    border: 1px solid #c3c4c5;
+    border-collapse: collapse;
+    border-bottom: 0;
+    text-align: center;
+}
+.article-list .list-info table tr:hover
+{
+    background: #f4f5f6;
+    cursor: pointer;
+}
+.article-list .list-info table tr th{
+    height: 26px;
+    border: 1px solid #c3c4c5;
+    border-bottom: 0;
+    font: 13px "SimHei";
+}
+.article-list .list-info table tr td{
+    border: 1px solid #c3c4c5;
+    border-bottom: 0;
+    height: 24px;
+    font: 12px "SimHei";
+}
+.article-list .list-info table tr td:nth-of-type(1){
+    width: 68px;
+}
+.article-list .list-info table tr td:nth-of-type(2){
+    width: 92px;
+}
+
+.article-list .list-info table tr,td{
+    border: 0;
+}
+
+.article-list progress{
+    margin: 0 0 5px 20px;
+    width: 165px;
+    height: 4px;
+    /* background: transparent; */
+    background: #dcdcdc;
+}
+progress::-webkit-progress-bar { background: transparent; }
+progress::-webkit-progress-value { background: #7ecaf0; }
+
+.article-list .list-frist::-webkit-progress-value{
+    background: #ec6d51;
+}
+.article-list .list-second::-webkit-progress-value{
+    background: #ef804f;
+}
+.article-list .list-third::-webkit-progress-value{
+    background: #f19e4f;
+}

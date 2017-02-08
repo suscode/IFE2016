@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>task_1_9</title>
+    <link rel="stylesheet" type="text/css" href="css/task_1_9.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="t9-head">
+        <!-- logo -->
+        <div class="t9-head-search">
+            <form action="" method="get" accept-charset="utf-8">
+                <a class="t9-head-search-a" href="#"><img src="images/head-icon1.png" alt=""></a>
+                <input class="t9-head-search-input" type="text" name="">
+            </form>
+        </div>
+        <div class="t9-head-login">
+            <a href="#"><img src="images/head-icon2.png" alt=""><span class="t9-head-login-a-span">登录</span></a>
+        </div>
+    </div>
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- aside -->
+        <div class="aside">
+            <!-- aside-head -->
+            <div class="aside-head">
+                <div class="aside-head-div">
+                    <img class="aside-head-div-img" src="images/aside-icon1.png" alt="">
+                </div>
+                <span class="aside-head-span">ABC123</span>
+            </div>
+            <!-- aside-data -->
+            <div class="aside-data">
+                <div class="aside-data-div aside-data-div1">
+                    <span class="aside-data-div-span">110</span><span class="aside-data-div-span2">收藏</span>
+                </div>
+                <div class="aside-data-div aside-data-div2">
+                    <span class="aside-data-div-span">313</span><span class="aside-data-div-span2">粉丝</span>
+                </div>
+            </div>
+            <!-- aside-nav -->
+            <div class="aside-nav">
+                <ul>
+                    <li class="aside-nav1-tb aside-nav-check aside-nav1-li1"><a class="aside-nav-font aside-nav-open aside-nav1-position" href="#">个人报表</a>
+                        <ul>
+                            <li class="aside-nav2-tb aside-nav2-close">
+                                <a class="aside-nav-font aside-nav-close aside-nav2-position" href="#">文件一</a></li>
+                            <li class="aside-nav2-tb aside-nav2-open">
+                                <a class="aside-nav-font aside-nav-open aside-nav2-position" href="#">文件二</a>
+                                <ul>
+                                    <li class="aside-nav3-tb aside-nav3-open">
+                                        <a class="aside-nav-font aside-nav-open aside-nav3-position" href="#">文档1</a></li>
+                                    <li class="aside-nav3-tb aside-nav3-close">
+                                        <a class="aside-nav-font aside-nav-close aside-nav3-position" href="#">文档2</a></li>
+                                </ul>
+                            </li>
+                            <li class="aside-nav2-tb aside-nav2-close"><a class="aside-nav-font aside-nav-close aside-nav2-position" href="#">文件三</a></li>
+                        </ul>
+                    </li>
+                    <li class="aside-nav1-tb aside-nav1-li2">
+                        <a class="aside-nav-font aside-nav-close  aside-nav1-position" href="#">个人收藏</a></li>
+                    <li class="aside-nav1-tb aside-nav1-li3">
+                        <a class="aside-nav-font aside-nav-close  aside-nav1-position" href="#">我的分享</a></li>
+                    <li class="aside-nav1-tb aside-nav1-li4">
+                        <a class="aside-nav-font aside-nav-close  aside-nav1-position" href="#">图库</a></li>
+                    <li class="aside-nav1-tb aside-nav1-li5">
+                        <a class="aside-nav-font aside-nav-close  aside-nav1-position" href="#">成长记录</a></li>
+                    <li class="aside-nav1-tb aside-nav1-li6">
+                        <a class="aside-nav-font aside-nav-close  aside-nav1-position" href="#">账户信息</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- article -->
+        <div class="article">
+            <!-- article-head -->
+            <div class="article-head first-font">
+                <span>C站</span>
+                <span>/</span>
+                <span>个人报表</span>
+                <span>/</span>
+                <span>文件一</span>
+                <span>/</span>
+                <span class="page-address">文档一</span>
+            </div>
+            <!-- article-search -->
+            <div class="article-search first-font">
+                <form action="" method="get" accept-charset="utf-8">
+                    <div class="search-this">
+                        <span>查询项</span>
+                        <select name="buyperson">
+                            <option value="">第一项</option>
+                        </select>
+                    </div>
+                    <div class="buy-sell">
+                        <span>买方</span>
+                        <select name="buy">
+                            <option value="">小A</option>
+                        </select>
+                        <br>
+                        <span name="sell">卖方</span>
+                        <select name="">
+                            <option value="">小C</option>
+                        </select>
+                        <a href="#">换</a>
+                    </div>
+                    <div class="search-date">
+                        <span>日期</span>
+                        <input type="text" name="" value="2016-04-01">
+                        <span>总耗时</span>
+                        <select>
+                            <option>8天</option>
+                        </select>
+                        <br>
+                        <span>人数</span>
+                        <select name="count-person">
+                            <option value="">10人</option>
+                        </select>
+                        <span>成交项</span>
+                        <select name="">
+                            <option value="">10项</option>
+                        </select>
+                    </div>
+                    <input type="submit" name="" value="搜索">
+                </form>
+            </div>
+            <!-- article-historg -->
+            <div class="article-historg">
+                <ul>
+                    <li class="historg-left"><a href="#">〈</a></li>
+                    <li class="historg-time checked-li"><span>10:00 am</span>
+                        <span>¥</span><span>1200</span></li>
+                    <li class="historg-time"><span>11:00 am</span>
+                        <span>¥</span><span>1300</span></li>
+                    <li class="historg-time"><span>12:00 am</span>
+                        <span>¥</span><span>1200</span></li>
+                    <li class="historg-time"><span>01:00pam</span>
+                        <span>¥</span><span>1400</span></li>
+                    <li class="historg-time"><span>02:00 pm</span>
+                        <span>¥</span><span>1500</span></li>
+                    <li class="historg-time"><span>03:00 pm</span>
+                        <span>¥</span><span>1800</span></li>
+                    <li class="historg-right"><a href="#">〉</a></li>
+                    <li class="historg-submit"><span>历史记录</span></li>
+                </ul>
+            </div>
+            <!-- article-count -->
+            <div class="article-count">
+                <h4>2016年4月份统计</h4>
+                <div class="count-green">
+                    <span>133311</span>
+                    <span>成交量</span>
+                    <div>
+                    </div>
+                </div>
+                <div class="count-blue">
+                    <span>133311</span>
+                    <span>成交量</span>
+                    <div>
+                    </div>
+                </div>
+                <div class="count-red">
+                    <span>133311</span>
+                    <span>成交量</span>
+                    <div>
+                    </div>
+                </div>
+                <div class="count-yellow">
+                    <span>133311</span>
+                    <span>成交量</span>
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <!-- project-left -->
+            <div class="project-left">
+                <div class="left-head">
+                    <h3>第一组项目</h3>
+                </div>
+                <nav class="left-nav">
+                    <ul>
+                        <li><a href="#">项目一</a></li>
+                        <li><a href="#">项目二</a></li>
+                        <li><a href="#">项目三</a></li>
+                        <li><a href="#">项目四</a></li>
+                        <li><a href="#">项目五</a></li>
+                    </ul>
+                </nav>
+                <div class="left-table">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                            </tr>
+                            <tr>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                            </tr>
+                            <tr>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                            </tr>
+                            <tr>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                            </tr>
+                            <tr>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                            </tr>
+                            <tr>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                                <td>购买材料一</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                </div>
+            </div>
+            <!-- project-right -->
+            <div class="project-right">
+                <div class="right-head">
+                    <h3>第一组项目</h3>
+                </div>
+                <form action="" method="get" accept-charset="utf-8">
+                    <div class="form-one">
+                        <span class="font-1">标题</span>
+                        <span class="font-2">项目报表三</span>
+                    </div>
+                    <div class="form-two">
+                        <span class="font-1">价格</span>
+                        <span class="font-2">￥158</span>
+                    </div>
+                    <div class="form-three">
+                        <span class="font-1">负责人</span>
+                        <span class="font-2">小A</span>
+                    </div>
+                    <div class="form-four">
+                        <span class="font-1">详细描述</span>
+                        <p class="font-2">该项目目前的负责人是.........</p>
+                    </div>
+                    <div class="form-five">
+                        <input type="checkbox" name="" checked="1">
+                        <span class="font-1">遵守保密协议</span>
+                        <input type="submit" name="" value="搜索">
+                    </div>
+                </form>
+            </div>
+
+            <!-- article-calendar -->
+            <div class="article-calendar">
+                <div class="calendar-head">
+                    <h3>日历</h3>
+                </div>
+                <div class="calendar-choice">
+                    <select name="">
+                        <option value="">2016年</option>
+                    </select>
+                    <select name="">
+                        <option value="">4月</option>
+                    </select>
+                    <select name="">
+                        <option value="">标注日期</option>
+                    </select>
+                    <a href="#">返回今天</a>
+                </div>
+                <div class="calendar-week">
+                    <span>一</span>
+                    <span>二</span>
+                    <span>三</span>
+                    <span>四</span>
+                    <span>五</span>
+                    <span>六</span>
+                    <span>七</span>
+                </div>
+                <ul class="calendar-date">
+                    <li class="monday"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li><span>1</span><span class="holiday">愚人节</span></li>
+                    <li><span class="holiday">2</span><span>廿五</span></li>
+                    <li class="sunday"><span class="holiday">3</span><span>廿六</span></li>
+                    <li class="monday"><span>4</span><span>廿六</span></li>
+                    <li><span>5</span><span>廿六</span></li>
+                    <li><span>6</span><span class="holiday">清明</span></li>
+                    <li><span>7</span><span>廿九</span></li>
+                    <li><span>8</span><span>三月</span></li>
+                    <li class="border"><span class="holiday">9</span><span>初二</span></li>
+                    <li class="sunday"><span class="holiday">10</span><span>初三</span></li>
+                    <li class="monday"><span>11</span><span>初四</span></li>
+                    <li class="border"><span>12</span><span>初五</span></li>
+                    <li><span>13</span><span>初六</span></li>
+                    <li><span>14</span><span>初七</span></li>
+                    <li><span>15</span><span>初八</span></li>
+                    <li><span class="holiday">16</span><span>初九</span></li>
+                    <li class="sunday"><span class="holiday">17</span><span>初十</span></li>
+                    <li class="monday"><span>18</span><span>十一</span></li>
+                    <li class="border"><span>19</span><span>十二</span></li>
+                    <li><span>20</span><span>十三</span></li>
+                    <li><span>21</span><span>十四</span></li>
+                    <li><span>22</span><span>十五</span></li>
+                    <li><span class="holiday">23</span><span>十六</span></li>
+                    <li class="sunday"><span class="holiday">24</span><span>十七</span></li>
+                    <li class="monday"><span>25</span><span>十八</span></li>
+                    <li><span>26</span><span>十九</span></li>
+                    <li><span>27</span><span>廿十</span></li>
+                    <li><span>28</span><span>廿一</span></li>
+                    <li><span>29</span><span>廿二</span></li>
+                    <li><span class="holiday">30</span><span>廿三</span></li>
+                    <li class="sunday"></li>
+                </ul>
+            </div>
+
+            <!-- article-list -->
+            <div class="article-list">
+                <div class="list-head">
+                    <h3>汽车行业品牌榜</h3>
+                </div>
+                <div class="list-info">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>排名</th>
+                                <th>品牌</th>
+                                <th>搜索指数</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>大众</td>
+                                <td><span>48912001</span>
+                                    <progress class="list-frist" value="145" max="165"></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>丰田</td>
+                                <td><span>29307333</span>
+                                    <progress class="list-second" value="121" max="165"></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>奥迪</td>
+                                <td><span>23139070</span>
+                                    <progress class="list-third" value="106" max="165"></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>本田</td>
+                                <td><span>22885564</span>
+                                    <progress value="98" max="165"></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>福特</td>
+                                <td><span>22324792</span>
+                                    <progress value="88" max="165"></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>宝马</td>
+                                <td><span>21444077</span>
+                                    <progress value="82" max="165"></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>现代</td>
+                                <td><span>20114969</span>
+                                    <progress value="76" max="165"></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>起亚</td>
+                                <td><span>19251680</span>
+                                    <progress value="65" max="165"></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>奔驰</td>
+                                <td><span>19172837</span>
+                                    <progress value="60" max="165"></progress>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>别克</td>
+                                <td><span>18544027</span>
+                                    <progress value="58" max="165"></progress>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

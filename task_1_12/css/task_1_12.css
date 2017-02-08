@@ -1,0 +1,215 @@
+/*
+* @Author: Marte
+* @Date:   2016-12-28 11:24:47
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-28 17:22:34
+*/
+
+
+*{
+    margin: 0px;
+    padding: 0;
+}
+img{
+    border:0;
+}
+ol, ul ,li{list-style: none;}
+
+
+table{
+    font-weight: bold;
+}
+table > thead > tr:nth-of-type(1){
+    background: #000;
+    color: #fff;
+}
+
+table > tbody > tr:nth-of-type(2n){
+    background: #ccc;
+}
+table > tbody > tr:nth-of-type(-n+3){
+    color: red;
+}
+
+input[type="text"]{
+    width: 120px;
+    -webkit-transition: width 1s;
+       -moz-transition: width 1s;
+        -ms-transition: width 1s;
+         -o-transition: width 1s;
+            transition: width 1s;
+}
+
+input[type="text"]:focus{
+    width: 200px;
+}
+
+.banner{
+    position: relative;
+    width: 280px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.banner-button{
+    position: absolute;
+    margin: 83px 0 0 180px;
+    z-index: 5;
+}
+
+
+.banner > div > a{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    margin: 0;
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+    font: 16px "SimHei";
+    color: #fff;
+    line-height: 27px;
+    text-decoration: none;
+}
+
+.banner > ul{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    animation: banner-box-in 1s linear;
+}
+.banner > ul > li{
+    position: absolute;
+    left: -100%;
+    animation: banner-box-out 1s linear;
+}
+@keyframes banner-box-in{
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes banner-box-out{
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+#box1,#box2,#box3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#box1{
+    background: green;
+}
+#box2{
+    background: blue;
+}
+#box3{
+    background: red;
+}
+
+#box1:target,#box2:target,#box3:target{
+    z-index: 1;
+    left: 0%;
+    animation: banner-box-in 1s linear;
+}
+
+
+
+.div-1{
+    margin: 20px;
+    position: relative;
+    width: 280px;
+    height: 110px;
+    overflow: hidden;
+}
+
+
+.ul-1{
+    position:absolute;
+    width: 300%;
+    height: 100%;
+    animation: slider 20s infinite;
+}
+
+#li-1, #li-2, #li-3{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+
+}
+#li-1{
+    background: green;
+    /* animation: slider-li 3s linear; */
+}
+#li-2{
+    background: blue;
+
+}
+#li-3{
+    background: red;
+    /* animation: slider-li-2 6s linear; */
+}
+
+.ul-1 > #li-1:target{
+    left: 0%;
+}
+.ul-1 > #li-2:target{
+    left: 0%;
+}
+.ul-1 > #li-3:target{
+    left: 0%;
+}
+
+@keyframes slider{
+    0%{ left: 0%; }
+    10%{ left: 0%; }
+    20%{ left: -100%; }
+    30%{ left: -100%; }
+    40%{ left: -200%; }
+    50%{ left: -200%; }
+    60%{ left: -200%; }
+    60%{ left: -100%; }
+    80%{ left: -100%; }
+    90%{ left: 0%; }
+    100%{ left: 0%; }
+}
+
+/* @keyframes slider-li{
+    0%{ margin-left: 0%; }
+    100%{ margin-left: -33.3%; }
+    100%{ margin-left: -66.6%; }
+}
+@keyframes slider-li-2{
+    0%{ margin-left: -0%; }
+    50% { margin-left:-33.3%; }
+    100%{ margin-left: -66.6%; }
+}
+ */
+.div-button{
+    position: absolute;
+    width: 99px;
+    height: 27px;
+    margin: 83px 0 0 180px;
+}
+.div-button a{
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    margin: 0;
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+    font: 16px "SimHei";
+    color: #fff;
+    line-height: 27px;
+    text-decoration: none;
+}

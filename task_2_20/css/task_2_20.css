@@ -1,0 +1,91 @@
+/*
+* @Author: Marte
+* @Date:   2017-01-10 23:07:30
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-01-13 17:49:26
+*/
+
+.console-wrap {
+    display: flex;
+    width: 100% - 20px;
+    /* height: 60px; */
+    margin: 20px;
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.console-wrap div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.console-wrap div:nth-of-type(1) {
+    flex:2;
+}
+
+.console-wrap div:nth-of-type(2) {
+    flex:1;
+}
+
+
+
+
+.console-wrap div button {
+    border: 0;
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #6cc;
+    outline: none;
+}
+
+.console-wrap div button:hover {
+    opacity: 0.7;
+}
+
+.console-wrap #inText {
+    outline: none;
+    resize: none;
+    border-radius: 3px;
+}
+
+.box-wrap {
+    display: flex;
+    width: 100% - 20px;
+    min-height: 400px;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.box {
+    min-width: 50px;
+    height: 50px;
+    padding: 5px;
+    background: #6cc;
+    border: 1px solid #ecf465;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    border-radius: 3px;
+}
+
+.box:hover {
+    position: relative;
+    /* min-width: 80px;
+    height: 80px;
+    line-height: 80px; */
+    font-size: 36px;
+    opacity: 0.7;
+    box-shadow: 5px 5px 1px #ccc;
+}

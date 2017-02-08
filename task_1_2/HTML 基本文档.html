@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>任务二</title>
+  <link href="css/your-style.css" rel="stylesheet">
+  <style type="text/css">
+  body {
+    background-color: #eee;
+    padding: 0;
+    margin: 0;
+  }
+  .imginfo {
+    padding:5px 30px;
+  }
+  nav {
+    background-color: #555;
+    width: 100%;
+    margin-left: -2px;
+    display: inline-block;
+  }
+  nav-brand {
+    float: left;
+  }
+  ul.nav-list {
+    float: right;
+    margin-right: 20px;
+  }
+  ul.nav-list li {
+    float: left;
+    margin-left: 20px;
+  }
+  ul.nav-list li a{
+    text-decoration: none;
+    color: #fafafa;
+  }
+  ul.nav-list li a.disabled {
+     pointer-events:none;
+     color:#ccc;
+     cursor:default
+  }
+  box {
+    display: block;
+    margin: 25px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 1px #666;
+    border: 1px solid #ddd;
+  }
+  p {
+    text-indent: 2em;
+  }
+  box h3 {
+    color: #888;
+  }
+  box h4 {
+    color: #999;
+    font-weight: normal;
+  }
+  .imginfo {
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin: 10px 900px 10px 50px;
+    padding: 5px 15px 15px;
+  }
+  .imginfo p {
+    margin: 5px auto;
+  }
+  .imginfo img {
+    width: 140px;
+    height: 120px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 5px 10px;
+  }
+  thead {
+    background-color: #222;
+    color: #fafafa;
+  }
+  tfoot {
+    background-color: #ccc;
+    font-weight: bold;
+  }
+  .slide-header {
+    border-left: 3px solid #bbb;
+    padding: 10px;
+  }
+  form {
+  }
+  form label {
+    display: inline-block;
+    width: 26%;
+    text-align: right;
+    margin: 10px;
+  }
+  .btn-submit {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    padding: 7px;
+    background-color: #3355d0;
+    border: none;
+    color: #fafafa;
+    border-radius: 8px;
+  }
+  tips {
+    color: #777;
+  }
+  textarea {
+    width: 70%;
+    font-size: 18px;
+    font-weight: bold;
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+  }
+  footer {
+    background-color: #111;
+    color: #fafafa;
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 25px;
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <nav-brand><img src="logo.png" width="120px"></nav-brand>
+      <nav-menu>
+        <ul class="nav-list">
+          <li><a href="#">导航链接一</a></li>
+          <li><a href="#">导航链接二</a></li>
+          <li><a href="#">导航链接三</a></li>
+          <li><a href="#" class="disabled" >导航链接四</a></li>
+        </ul>
+      </nav-menu>
+    </nav>
+  </header>
+
+
+  <box>
+    <h2>文章一级标题</h2>
+    <h3>文章二级标题</h3>
+    <h4>文章作者&nbsp;文章发表时间</h4>
+    <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+    <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+    <img src="img.jpg">
+    <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了</p>
+    <p>这是一个很长很长的段落，<a target="_blank" href="http://ife.baidu.com">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+  </box>
+
+  <box>
+    <h2>另一篇文章一级标题</h2>
+    <h3>文章二级标题</h3>
+    <h4>文章作者&nbsp;文章发表时间</h4>
+    <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+    <p>换行了</p>
+    <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+    <img src="img.jpg">
+    <ul>
+      <li>列表项目一</li>
+      <li>列表项目二</li>
+      <li>列表项目三</li>
+    </ul>
+  </box>
+  <box>
+    <h2>图片</h2>
+    <div class="imginfo">
+      <p>好看的图片</p>
+      <img src="img.jpg">
+    </div>
+    <div class="imginfo">
+      <p>好看的图片</p>
+      <img src="img.jpg">
+    </div>
+    <div class="imginfo">
+      <p>好看的图片</p>
+      <img src="img.jpg">
+    </div>
+    <div class="imginfo">
+      <p>好看的图片</p>
+      <img src="img.jpg">
+    </div>
+    <div class="imginfo">
+      <p>好看的图片</p>
+      <img src="img.jpg">
+    </div>
+    <div class="imginfo">
+      <p>好看的图片</p>
+      <img src="img.jpg">
+    </div>
+    <div class="imginfo">
+      <p>好看的图片</p>
+      <img src="img.jpg">
+    </div>
+    <div class="imginfo">
+      <p>好看的图片</p>
+      <img src="img.jpg">
+    </div>
+    <div class="imginfo">
+      <p>好看的图片</p>
+      <img src="img.jpg">
+    </div>
+    <div class="imginfo">
+      <p>好看的图片</p>
+      <img src="img.jpg">
+    </div>
+  </box>
+  <box>
+    <h2>最后一篇文章一级标题</h2>
+    <h3>文章二级标题</h3>
+    <h4>文章作者&nbsp;文章发表时间</h4>
+    <ol>
+      <li>排名1</li>
+      <li>排名2</li>
+      <li>排名3</li>
+    </ol>
+    <b>下面是一个表格，给表格加了一个border=“1”好让你看出是一个表格，你们不用写html时候不用加</b>
+    <table>
+      <thead>
+        <tr>
+          <th>表头</th>
+          <th>表头</th>
+          <th>表头</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>表内容单元格</td>
+          <td>表内容单元格</td>
+          <td><a href="#">操作</a></td>
+        </tr>
+        <tr>
+          <td>表内容单元格</td>
+          <td>表内容单元格</td>
+          <td><a href="#">操作</a></td>
+        </tr>
+        <tr>
+          <td>表内容单元格</td>
+          <td>表内容单元格</td>
+          <td><a href="#">操作</a></td>
+        </tr>
+        <tr>
+          <td>表内容单元格</td>
+          <td>表内容单元格</td>
+          <td><a href="#">操作</a></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>总计</td>
+          <td colspan="2">1000</td>
+        </tr>
+      </tfoot>
+    </table>
+  </box>
+  <box>
+    <div class="slide-header"><b>这里以后是一个侧栏，这是侧栏的标题</b></div>
+    <form>
+      <div><label>请输入邮箱地址 </label><input type="text" value="这是一个文本输入框" /></div>
+      <div><label></label><tips>邮箱地址请按要求格式输入</tips></div>
+      <div><label>请输入密码 </label><input type="password" value="这是一个文本输入框" /></div>
+      <div><label>请重复输入密码 </label><input type="password" value="这是一个文本输入框" /></div>
+      <div><label></label><tips>密码请为6-16位英文数字</tips></div>
+      <div>
+        <label>性别 </label>
+        <input type="radio" name="sex" checked="checked"/>男 <input type="radio" name="sex" />女
+      </div>
+
+      <div>
+        <label>城市 </label>
+        <select>
+          <option value="aizelasi">艾泽拉斯</option>
+          <option value="demaxiya">德玛西亚</option>
+          <option value="manhuang">蛮荒之地</option>
+          <option value="buzhichu">云深不知处</option>
+        </select>
+      </div>
+      <div>
+        <label>爱好 </label>
+        <input type="checkbox" name="favorite" />运动
+        <input type="checkbox" name="favorite" />艺术
+        <input type="checkbox" name="favorite" />科学
+      </div>
+      <div>
+        <label>个人描述 </label>
+        <textarea rows="3">这是一个多行输入框，输入您的个人描述</textarea>
+      </div>
+      <div><input class="btn-submit" type="submit" value="确认提交" /></div>
+    </form>
+  </box>
+  <footer>
+    版权所有&copy;
+  </footer>
+</body>
+</html>

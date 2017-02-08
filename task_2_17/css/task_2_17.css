@@ -1,0 +1,57 @@
+/*
+* @Author: Marte
+* @Date:   2017-01-10 08:54:34
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-01-10 19:56:16
+*/
+
+.bg-black {
+    background: #000;
+}
+
+.bg-blue {
+    background: #0201fd;
+}
+
+.bg-red {
+    background: #fd0100;
+}
+
+.bg-purple {
+    background: #81007e;
+}
+
+.bg-green {
+    background: #0abe56;
+}
+
+.width-8 {
+    width: 8px;
+}
+
+.width-22 {
+    width: 22px;
+}
+
+.width-52 {
+    width: 52px;
+}
+
+.aqi-chart-wrap {
+    margin-top: 20px;
+    height: 500px;
+    padding: 20px;
+    /* background: #e1e1ed; */
+    border: 1px solid #ccc;
+}
+
+.aqi-chart-wrap ul {
+    display: flex;
+    height: 500px;
+    list-style: none;
+    align-items: flex-end;
+}
+
+.aqi-chart-wrap ul li {
+    border: 1px solid #ccc;
+}

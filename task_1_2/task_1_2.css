@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+
+/* ol, ul ,li{list-style: none;} */
+
+
+p {
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 2em;
+}
+
+
+/* 公共css */
+/* div
+{
+    border: 1px solid #3f3f3f
+} */
+
+.public-overflow {
+    overflow: hidden;
+}
+
+.public-padmar {
+    padding: 10px;
+    margin: 10px;
+    border-top: 1px solid #948b89;
+    border-right: 2px solid #948b89;
+    border-bottom: 2px solid #948b89;
+    border-left: 1px solid #948b89;
+}
+
+.public-strong {
+    font-weight: bold;
+}
+
+
+/* 公共首部css */
+
+.public-header {
+    height: 70px;
+    border: 0px;
+    background-color: #555;
+    6cf
+}
+
+.public-header .header-ul {
+    float: right;
+    margin: 30px 50px 0 0;
+    list-style-type: disc;
+}
+
+.public-header .header-li {
+    float: left;
+    margin-left: 30px;
+}
+
+.public-header .header-li a {
+    color: #fff;
+}
+
+.public-header .header-img {
+    height: 60px;
+    margin: 5px 0 0 100px;
+}
+
+
+/* 公共尾部css */
+
+.public-footer {
+    height: 60px;
+    background: #000;
+}
+
+.public-footer .footer-span {
+    float: left;
+    margin: 20px 45%;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* task内容部分css */
+
+.task-content {}
+
+.task-content .content-h2 {
+    color: #948b89;
+}
+
+.task-content .content-h5 {
+    color: #948b89;
+}
+
+.task-content .content-ul {
+    list-style-type: none;
+}
+
+.task-content .content-div {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    margin: 10px 10px;
+}
+
+.task-content .content-div .content-span {
+    float: left;
+    font-size: 14px;
+    margin: 10px 60px;
+}
+
+.task-content .content-div .content-img {
+    float: left;
+    height: 150px;
+    width: 170px;
+    margin: 0px 15px;
+}
+
+.task-content .content-ol {
+    margin: 10px 50px;
+}
+
+.task-content .content-table {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    border: 1px solid #948b89;
+    text-align: left;
+}
+
+.task-content .content-table th {
+    border-collapse: collapse;
+    border: 1px solid #948b89;
+    background: #222;
+    color: #fff;
+}
+
+.task-content .content-table td {
+    border-collapse: collapse;
+    border: 1px solid #948b89;
+}
+
+.task-content .content-table .table-td {
+    background: #948b89;
+}
+
+.task-sidebar {
+    margin: 30px 10px;
+    padding: 10px 10px;
+    border: 1px solid #948b89;
+}
+
+.task-sidebar .sidebar-h2 {
+    padding-left: 5px;
+    border-left: 2px solid #948b89
+}
+
+.task-sidebar .sidebar-form {
+
+}
+
+.task-sidebar .sidebar-form label {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+    margin-right: 10px;
+}
+.task-sidebar .sidebar-form span {
+    margin-left: 8px;
+}
+
+.task-sidebar .sidebar-form .form-submit {
+    width: 96%;
+    height: 30px;
+    margin:0 2%;
+    background: #3355d0;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    border-radius:8px;
+}
+
+

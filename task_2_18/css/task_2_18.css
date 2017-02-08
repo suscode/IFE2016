@@ -1,0 +1,67 @@
+/*
+* @Author: Marte
+* @Date:   2017-01-10 23:07:30
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-01-13 11:17:12
+*/
+
+.console-wrap {
+    display: flex;
+    width: 100% - 20px;
+    height: 60px;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.console-wrap button{
+    border: 0;
+    width: 80px;
+    height: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #6cc;
+    outline: none;
+}
+
+.console-wrap button:hover{
+    opacity: 0.7;
+}
+.console-wrap input[type="text"]{
+    outline: none;
+}
+.box-wrap {
+    display: flex;
+    width: 100% - 20px;
+    height: 400px;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background: #6cc;
+    border: 1px solid #ecf465;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    border-radius: 3px;
+}
+.box:hover{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 36px;
+    opacity: 0.7;
+    box-shadow: 10px 10px 5px #ccc;
+}

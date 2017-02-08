@@ -1,0 +1,24 @@
+/*
+* @Author: Marte
+* @Date:   2016-12-21 13:37:40
+* @Last Modified by:   Marte
+* @Last Modified time: 2016-12-21 13:56:08
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+ol, ul ,li{list-style: none;}
+
+div{ width: 150px; padding: 20px; border:1px solid #ef4f4f; text-align: center; }
+div:nth-of-type(1){ height: 120px; }
+div:nth-of-type(2){ height: 100px; }
+div:nth-of-type(3){ height: 40px; }
+div:nth-of-type(4){ height: 200px; border-color: #574fef; }
+
+
