@@ -2,7 +2,7 @@
  * @Author: Marte
  * @Date:   2017-01-17 16:51:02
  * @Last Modified by:   Marte
- * @Last Modified time: 2017-02-08 17:12:39
+ * @Last Modified time: 2017-02-08 17:55:06
  */
 
 'use strict';
@@ -79,25 +79,28 @@ function createTree(data) {
             inter_:
                 for (var j = 0; j < incount; j++) {
                     if (orderData[i].children[j].nodeName == "DIV") {
-                        var hSvg = document.createElement("svg");
+                        var hSvg = document.createElementNS("http://www.w3.org/2000/svg","svg");
+
+                        var hClass = document.createAttribute("class");
+                        hClass.value = "node-icon";
+                        hSvg.setAttributeNode(hClass);
+                        /*hSvg.style = "width:10px; height:10px;";*/
+
                         var xmlns = document.createAttribute("xmlns");
-
-                        /*hSvg.className = "node-icon";*/
-
                         xmlns.value = "http://www.w3.org/2000/svg";
                         hSvg.setAttributeNode(xmlns);
                         var hVersion = document.createAttribute("version");
                         hVersion.value = "1.1";
                         hSvg.setAttributeNode(hVersion);
 
-                        var hPolygon = document.createElement("polygon");
+                        var hPolygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
                         var hPoints = document.createAttribute("points");
                         hPoints.value = "0,0 0,10 10,5";
                         hPolygon.setAttributeNode(hPoints);
                         hPolygon.style.fill = "purple";
                         hSvg.appendChild(hPolygon);
 
-                        orderData[i].children[0].appendChild(hSvg);
+                        orderData[i].children[0].insertBefore(hSvg, orderData[i].children[0].childNodes[0]);
                         orderData[i].children[0].className = "havechild";
 
                         divcount++;
